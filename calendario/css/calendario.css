@@ -1,13 +1,19 @@
 h1 {
+   margin: 1 auto;
     color:red;
 }
 table{
+   margin: 0 auto;
     color:black;
     border: 1px solid black 
+
 }
 th{
     border: 1px solid black
 }
 td{
     border: 1px solid black
+}
+a   {
+    color: blue;
 }

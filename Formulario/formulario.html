@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="css/css.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <form action="form.php" method="get" id="RolFrom">
+            <h1>Información Basica</h1>
+            <label for="fname">Nombre</label><br>
+            <input type="text" id="fname" name="fname"><br><br>
+           <label for="Altura">Altura:</label><br>
+           <input type="number" id="Altura" name="Altura" min="0" max="300" value="170" required> <br><br>
+           <label for="email">Email:</label><br>
+           <input type="email" id="email" name="email"><br><br>
+           <label for="Fecha de Nacimieto">Fecha de Nacimieto</label><br>
+           <input type="date" id="Fecha de Nacimiento" name="Fecha de Nacimiento"><br><br>
+        </form>
+        <form action="form.php" method="get" id="rolex">
+            <h1>Nacionalidad</h1>
+          <input type="radio" id="Española" name="fav_language" value="Española">
+          <label for="Española">Española</label><br>
+          <input type="radio" id="Comunitaria" name="fav_language" value="Comunitaria">
+          <label for="Comunitaria">Comunitaria</label><br>
+          <input type="radio" id="No Comunitaria" name="fav_language" value="No Comunitaria">
+          <label for="No Comunitaria">No Comunitaria</label>
+        </form>
+        <form action="action.php" method="post" id="estudios">
+            <h1>Estudios</h1>
+         <select id="opciones escolares" name="escuelas">
+            <option value="opciones escolareres">ESO</option>
+            <option value="opciones escolareres">GM</option>
+            <option value="opciones escolareres">GS</option>
+            <option value="opciones escolareres">Universidad</option>
+         </select>
+        </form>
+        <form action="form.php" method="get" id="Idiomas">
+            <h1>Idiomas</h1>
+            <input type="checkbox" id="Español" name="Español[]" value="Español">
+            <label for="Español">Español</label><br>
+            <input type="checkbox" id="Catalan" name="Catalan[]" value="Catalan">
+            <label for="Catalan">Catalan</label><br>
+            <input type="checkbox" id="Ingles" name="Ingles[]" value="ingles">
+            <label for="Ingles">Ingles</label><br>
+            <input type="checkbox" id="Chino" name="Chino[]" value="Chino">
+            <label for="Chino">Chino</label>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+ #RolFrom{  
+     background: orange;
+        padding: 20px;
+        border-radius: 8px;
+     }
+#rolex{
+    background: greenyellow;
+        padding: 20px;
+        border-radius: 8px;
+}
+#estudios{
+    background: rosybrown;
+    padding: 20px;
+    border-radius: 8px;
+}
+#Idiomas{
+    background: skyblue;
+    padding: 20px;
+    border-radius: 8px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+label{
+    color: darkblue;
+    
+}
